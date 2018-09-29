@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="home-container">
+
+      <!-- nav desktop -->
+      <div class="nav-desktop">
+        <a class="trigger" href="#">
+          Me<br>nu
+        </a>
+      </div>
+      <!-- end nav nav desktop -->
+
+      <div class="body-container">
+      <div class="hero">
+        <h1>Hello.</h1>
+      </div>
+
+      </div>
+      <!-- end body container -->
+    </div>
+    <!-- end home container -->
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+
+    <script>
+      $('.trigger').hover(function() {
+        $('.body-container').toggleClass('hovered');
+        $('.nav-desktop').toggleClass('gray');
+      });
+
+    </script>
+
+
+  </body>
+</html>

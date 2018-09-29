@@ -1,0 +1,40 @@
+.nav-desktop {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  transition: 0.2s;
+  .trigger, .trigger:visited {
+    font-family: $header-font;
+    text-transform: uppercase;
+    color: $accent-color;
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 35px;
+    width: 80px;
+    height: 80px;
+    letter-spacing: 5px;
+    transition: 0.2s;
+    &:hover {
+      color: $white;
+      background-color: $accent-color;
+      transition: 0.2s;
+    }
+  }
+}
+.body-container {
+  background: $light-gray;
+  transition: 0.2s;
+}
+
+.hovered {
+  padding: 0 80px;
+  transition: 0.2s;
+}
+
+.gray {
+  background: $light-gray;
+  transition: 0.2s;
+}

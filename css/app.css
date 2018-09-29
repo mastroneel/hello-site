@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
+@font-face {
+  font-family: 'Catamaran';
+  src: url("../fonts/Catamaran-Black.ttf"); }
+@font-face {
+  font-family: 'Berlin';
+  src: url("../fonts/berlin.ttf"); }
+body, .row {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-family: "Berlin", sans-serif;
+  color: #000; }
+
+a, a:hover, a:visited {
+  text-decoration: none; }
+
+.nav-desktop {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  transition: 0.2s; }
+  .nav-desktop .trigger, .nav-desktop .trigger:visited {
+    font-family: "Berlin", sans-serif;
+    text-transform: uppercase;
+    color: #ea178c;
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 35px;
+    width: 80px;
+    height: 80px;
+    letter-spacing: 5px;
+    transition: 0.2s; }
+    .nav-desktop .trigger:hover, .nav-desktop .trigger:visited:hover {
+      color: #fff;
+      background-color: #ea178c;
+      transition: 0.2s; }
+
+.body-container {
+  background: #f4f4f4;
+  transition: 0.2s; }
+
+.hovered {
+  padding: 0 80px;
+  transition: 0.2s; }
+
+.gray {
+  background: #f4f4f4;
+  transition: 0.2s; }
+
+.hero {
+  text-align: center;
+  background: #fff !important; }
+  .hero h1 {
+    font-size: 30vw;
+    padding-top: 10vh; }
+
+/*# sourceMappingURL=app.css.map */
